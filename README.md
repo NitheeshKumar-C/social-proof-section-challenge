@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution here](https://your-solution-url.com)
+- [Solution here](https://www.frontendmentor.io/solutions/using-bootstrap-grid-and-flexbox-UjE8_RCii)
 - [Live Site](https://nitheeshkumar-c.github.io/social-proof-section-challenge/)
 
 ## My process
