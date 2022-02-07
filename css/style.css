@@ -116,8 +116,9 @@ main{
     margin-bottom: 30px;
 }
 .user{
-    margin-left: 50px;
-    line-height: 1;
+    padding-top: 5px;
+    margin-left: 60px;
+    line-height: 0.5;
 }
 .person-details h2{
     font-size: 0.9rem;
@@ -129,7 +130,7 @@ main{
 }
 .avator{
     float: left;
-    width: 2.5rem;
+    width:2.7rem;
     border-radius: 50%;
 }
 
