@@ -148,7 +148,7 @@ i{
 }
 /* img */
 .bg-img,.bgm-img{
-    position: absolute;
+    position: fixed;
     z-index: 2;
 }
 .bg-top{
