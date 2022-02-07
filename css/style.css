@@ -15,6 +15,8 @@ main{
     font-size: 15px;
     overflow: hidden;
 }
+
+/* for svg background */
 .bg{
     overflow: hidden;
     position:absolute;
@@ -23,12 +25,8 @@ main{
     top: 0;
     bottom: -5%;
 }
-i{
-    color:  hsl(300, 43%, 22%)  hsl(333, 80%, 67%)
-      hsl(303, 10%, 53%)hsl(300, 24%, 96%)
-    hsl(0, 0%, 100%)
-    
-}
+
+/* section */
 .social-proof{
     margin-top: 5rem;
     max-width: 80%;
@@ -40,6 +38,7 @@ i{
 .div1{
     margin:0 0 3rem 0;
 }
+
 /* inside div1 */
 .popularity{
     padding:0 5rem 0 0;
@@ -135,6 +134,7 @@ i{
 }
 
 .attribution{
+    line-height: 1.5;
     margin: 6% auto 0 auto;
     text-align: center;
     color: black;
