@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-Grid, flex-box, position property
+Grid, flex-box, position property.
 
 ## Author
 
