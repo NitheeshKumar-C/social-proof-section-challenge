@@ -45,6 +45,7 @@ i{
     padding:0 5rem 0 0;
 }
 .heading{
+    margin-right: 5rem;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
 }
