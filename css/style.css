@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+}
+.bg{
+    overflow: hidden;
+    position:absolute;
+    min-width: 100%;
+    min-height: 100vh;
+    top: 0;
+    bottom: -5%;
+}
+i{
+    color:  hsl(300, 43%, 22%)  hsl(333, 80%, 67%)
+      hsl(303, 10%, 53%)hsl(300, 24%, 96%)
+    hsl(0, 0%, 100%)
+    
+}
+.social-proof{
+    margin-top: 5rem;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+.div1{
+    margin:0 0 3rem 0;
+}
+/* inside div1 */
+.popularity{
+    padding:0 5rem 0 0;
+}
+.heading{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.sub-heading{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+.rating{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.rating-items{
+    width: fit-content;
+}
+.ri1{
+    align-self: flex-start;
+}
+.ri2{
+    align-self: center;
+}
+.ri3{
+    align-self: flex-end;
+}
+.rating-items p{
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    border-radius: 0.5rem;
+    width: fit-content;
+    padding-right: 40px;
+}
+.stars{
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.star{
+    padding: 2px;
+}
+
+
+/* inside feedback */
+.feedback{
+    justify-content: space-between;
+    margin: 0;
+}
+.feedback-items{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 30px;
+    border-radius: 0.5rem;
+    height: fit-content;
+    min-width: 30%;
+}
+.feedback-items p{
+    color: hsl(0, 0%, 88%);
+    font-weight: 500;
+}
+.fi2{
+    position: relative;
+    top: 1rem;
+}
+.fi3{
+    position: relative;
+    top: 0.3rem;
+}
+.person-details{
+    line-height: 0.5;
+    margin-bottom: 30px;
+}
+.user{
+    margin-left: 50px;
+    line-height: 1;
+}
+.person-details h2{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.person-details p{
+    font-size: 0.9rem;
+    color: hsla(333, 80%, 67%, 0.5);
+}
+.avator{
+    float: left;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.attribution{
+    margin: 6% auto 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+.attribution a{
+    color: black;
+    padding-left: 5px;
+}
+/* img */
+.bg-img,.bgm-img{
+    position: absolute;
+    z-index: 2;
+}
+.bg-top{
+    left: -7%;
+    top: 0;
+}
+.bg-bottom{
+    bottom: 0;
+    right: 0;
+}
+.bgm-img{
+    display: none;
+}
