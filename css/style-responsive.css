@@ -30,7 +30,10 @@
         padding-bottom: 10px;
     }
 }
-@media (max-width:991px){
+@media (max-width:992px){
+    .heading{
+        margin-right: 0;
+    }
     .div1{
         padding: 0;
         
@@ -45,7 +48,9 @@
 }
 
 @media (min-width:991px) and (max-width:1255px){
-    
+    .heading{
+        font-size: 3rem;
+    }
     .rating-items{
         align-self: auto;
         width: 100%;
